@@ -129,6 +129,8 @@ Evidence retrieval and claim verification are sometimes tackled together.
 * Detecting Check-worthy Factual Claims in Presidential Debates (Hassan et al., 2015)
   [[Paper]](https://idir.uta.edu/~naeemul/file/factchecking-cikm15-hassan-cameraready.pdf)
   **CIKM 2015**
+  
+  
 #### multilingual
 * FactRank: Developing automated claim detection for Dutch-language fact-checkers
  https://www.sciencedirect.com/science/article/pii/S2468696420300549?via%3Dihub

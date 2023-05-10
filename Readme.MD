@@ -11,7 +11,7 @@ Classical fact checking pipelines have three components - claim detection and wo
 - [Task Definition](#task-definition)
 - [Datasets](#datasets)
   - [Claim Detection](#claim-detection-dataset)
-    - [Multi lingual] (#multi-lingual)
+    - [Multi lingual](#multi-lingual)
   - [Evidence Retrieval](#evidence-retrieval)
   - [Claim Verification](#factual-verification-dataset)
     - [Natural Claims](#natural-claims)

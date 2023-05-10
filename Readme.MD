@@ -1,52 +1,50 @@
-# Automated Fact-Checking Resources
+# Automated Fact-Checking datasets, benchmarks and related resources 
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Cartus/Automated-Fact-Checking-Literature)
-[![Last Commit](https://img.shields.io/github/last-commit/Cartus/Automated-Fact-Checking-Literature)](https://github.com/Cartus/Automated-Fact-Checking-Literature)
-[![Contribution_welcome](https://img.shields.io/badge/Contributions-welcome-blue)](https://github.com/Cartus/Automated-Fact-Checking-Literature/blob/main/contribute.md)
 
 
 ## Overview
 
-This repo contains relevant resources from our survey paper [A Survey on Automated Fact-Checking](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00454/109469/A-Survey-on-Automated-Fact-Checking) in TACL 2022. In this survey, we present a comprehensive and up-to-date survey of automated fact-checking, unifying various components and definitions developed in previous research into a common framework.  As automated fact-checking research is evolving, we will provided timely update on the survey and this repo.
+This repo contains relevant resources from various papers on automated fact checking and is largely inspired from the survey paper [A Survey on Automated Fact-Checking](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00454/109469/A-Survey-on-Automated-Fact-Checking). In this repo, we link the most popular benchmarks, papers and related resources for automated fact checking.
+
+Classical fact checking pipelines have three components - claim detection and worthiness detection, evidence retrieval, claim verification and providing justifications.
 
 - [Task Definition](#task-definition)
 - [Datasets](#datasets)
   - [Claim Detection](#claim-detection-dataset)
-  - [Factual Verification](#factual-verification-dataset)
+    - [multilingual] (#multi-lingual)
+  - [Evidence retrieval] (#evidence-retrieval)
+  - [Claim Verification](#factual-verification-dataset)
     - [Natural Claims](#natural-claims)
     - [Artificial Claims](#artificial-claims)
-- [Shared Tasks](#shared-tasks)
+  - [Generative modeling] (#generative-modeling)
 - [Models](#model)
   - [Claim Detection](#claim-detection)
   - [Factual Verification](#factual-verification)
   - [Justification Production](#justification-production)
-- [Relevant Surveys](#relevant-surveys)
+- [Surveys](#surveys)
   - [Automated Fact-Checking](#automated-fact-checking)
   - [Fake News Detection](#fake-news-detection)
   - [Claim Detection Related](#claim-detection-related)
   - [Stance Detection](#stance-detection)
-- [Related Tasks](#related-tasks)
-  - [Misinformation and Disinformation](#misinformation-and-disinformation)
-  - [Detecting Previous Claims](#detecting-previous-claims)
-- [Tutorials](#tutorials)
+  - [Explainable fact checking] (#explainable-fact-checking)
+- [Workshops](#workshops)
 
 
 ## Task Definition
-Figure below shows a NLP framework for automated fact-checking consisting of three stages:  
+Framework for automated fact-checking consisting of three stages:  
 1. Claim detection to identify claims that require verification; 
-2. Evidence retrievalto find sources supporting or refuting the claim; 
+2. Evidence retrieval to find sources supporting or refuting the claim; 
 3. Claim verification to assess the veracity of the claim based on the retrieved evidence. 
 
-![Framework](Figures/framework.png)
-
-Evidence retrieval and claim verification are sometimes tackled as a single task referred to asfactual verification, while claim detection is often tackled separately. Claim verificationcan be decomposed into two parts that can be tackled separately or jointly: verdict prediction, where claims are assigned truthfulness labels, and justification production, where explanations for verdicts must be produced.
+Evidence retrieval and claim verification are sometimes tackled together.
 
 ## Datasets
 ### Claim Detection Dataset
 * FakeSV: A Multimodal Benchmark with Rich Social Context for Fake News Detection on Short Video Platforms (Qi et al., 2023)
   [[Paper]](https://arxiv.org/pdf/2211.10973.pdf)
   [[Dataset]](https://github.com/ictmcg/fakesv)
-    **AAAI 2023**
+
+* 
 
 
 * SciTweets - A Dataset and Annotation Framework for Detecting Scientific Online Discourse (Hafid et al., 2022)
@@ -57,10 +55,7 @@ Evidence retrieval and claim verification are sometimes tackled as a single task
   [[Paper]](https://arxiv.org/pdf/2210.04710.pdf)
   [[Dataset]](https://github.com/LCS2-IIITD/DABERTA-EMNLP-2022)
   **EMNLP 2022**
-* Stanceosaurus: Classifying Stance Towards Multilingual Misinformation (Zheng et al., 2022)
-  [[Paper]](https://arxiv.org/pdf/2210.15954.pdf)
-  [[Dataset]](https://github.com/JonathanQZheng/Stanceosaurus/)
-  **EMNLP 2022**
+
 * Challenges and Opportunities in Information Manipulation Detection: An Examination of Wartime Russian Media  (Park et al., 2022)
   [[Paper]](https://arxiv.org/pdf/2205.12382.pdf)
   **Findings EMNLP 2022**
@@ -134,8 +129,12 @@ Evidence retrieval and claim verification are sometimes tackled as a single task
 * Detecting Check-worthy Factual Claims in Presidential Debates (Hassan et al., 2015)
   [[Paper]](https://idir.uta.edu/~naeemul/file/factchecking-cikm15-hassan-cameraready.pdf)
   **CIKM 2015**
-
-
+#### multilingual
+* FactRank: Developing automated claim detection for Dutch-language fact-checkers
+ https://www.sciencedirect.com/science/article/pii/S2468696420300549?via%3Dihub
+### Evidence retrieval
+* Fact checking with insufficient evidence https://aclanthology.org/2022.tacl-1.43/
+* 
 ### Factual Verification Dataset
 #### Natural Claims
 * Modeling Information Change in Science Communication with Semantically Matched Paraphrases (Wright et al., 2022)

@@ -43,10 +43,6 @@ Evidence retrieval and claim verification are sometimes tackled together.
 * FakeSV: A Multimodal Benchmark with Rich Social Context for Fake News Detection on Short Video Platforms (Qi et al., 2023)
   [[Paper]](https://arxiv.org/pdf/2211.10973.pdf)
   [[Dataset]](https://github.com/ictmcg/fakesv)
-
-* 
-
-
 * SciTweets - A Dataset and Annotation Framework for Detecting Scientific Online Discourse (Hafid et al., 2022)
   [[Paper]](https://arxiv.org/pdf/2206.07360.pdf)
   [[Dataset]](https://github.com/AI-4-Sci/SciTweets)

@@ -16,7 +16,7 @@ Classical fact checking pipelines have three components - claim detection and wo
   - [Claim Verification](#factual-verification-dataset)
     - [Natural Claims](#natural-claims)
     - [Artificial Claims](#artificial-claims)
-  - [Generative modeling] (#generative-modeling)
+  - [Generative Modeling](#generative-modeling)
 - [Models](#model)
   - [Claim Detection](#claim-detection)
   - [Factual Verification](#factual-verification)

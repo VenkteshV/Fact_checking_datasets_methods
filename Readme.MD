@@ -133,7 +133,7 @@ Evidence retrieval and claim verification are sometimes tackled together.
  
 ### Evidence Retrieval
 * Fact checking with insufficient evidence https://aclanthology.org/2022.tacl-1.43/
-*  
+
 ### Factual Verification Dataset
 #### Natural Claims
 * Modeling Information Change in Science Communication with Semantically Matched Paraphrases (Wright et al., 2022)

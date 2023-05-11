@@ -28,6 +28,7 @@ Classical fact checking pipelines have three components - claim detection and wo
   - [Stance Detection](#stance-detection)
   - [Explainable fact checking] (#explainable-fact-checking)
 - [Benchmarks Diverse Topics](#benchmarks-diverse-topics)
+- [QA Based Systems](#qa-based-systems)
 
 
 ## Task Definition

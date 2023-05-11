@@ -803,7 +803,9 @@ Evidence retrieval and claim verification are sometimes tackled together.
 
 
 ## Benchmarks Diverse Topics
-* 
+* A Benchmark Dataset for Automatic Detection of Claims and Evidence in the Context of Controversial Topics
+ [[Paper]] (https://aclanthology.org/W14-2109/)
+
 
 
 

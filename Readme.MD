@@ -820,5 +820,7 @@ Evidence retrieval and claim verification are sometimes tackled together.
  [[Paper]](https://aclanthology.org/W14-2109/)
 
 
+## QA bases systems
+* AnswerFact: Fact Checking in Product Question Answering [[Paper]](https://aclanthology.org/2020.emnlp-main.188/)
 
 

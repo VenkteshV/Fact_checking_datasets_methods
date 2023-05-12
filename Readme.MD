@@ -11,7 +11,7 @@ Classical fact checking pipelines have three components - claim detection and wo
 - [Task Definition](#task-definition)
 - [Datasets](#datasets)
   - [Claim Detection](#claim-detection-dataset)
-    - [Multi lingual](#multi-lingual)
+  - [Multi lingual](#multi-lingual)
   - [Evidence Retrieval](#evidence-retrieval)
   - [Claim Verification](#factual-verification-dataset)
     - [Natural Claims](#natural-claims)
@@ -128,9 +128,11 @@ Evidence retrieval and claim verification are sometimes tackled together.
   **CIKM 2015**
   
   
-#### Multi lingual
+### Multi lingual
 * FactRank: Developing automated claim detection for Dutch-language fact-checkers
  https://www.sciencedirect.com/science/article/pii/S2468696420300549?via%3Dihub
+* X-Fact: A New Benchmark Dataset for Multilingual Fact Checking
+[[Paper]] (https://aclanthology.org/2021.acl-short.86/)
  
 ### Evidence Retrieval
 * Fact checking with insufficient evidence https://aclanthology.org/2022.tacl-1.43/

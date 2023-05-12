@@ -16,6 +16,7 @@ Classical fact checking pipelines have three components - claim detection and wo
   - [Claim Verification](#factual-verification-dataset)
     - [Natural Claims](#natural-claims)
     - [Artificial Claims](#artificial-claims)
+    - [Numerical Claims](#numerical-claims)
   - [Generative Modeling](#generative-modeling)
 - [Models](#model)
   - [Claim Detection](#claim-detection)
@@ -320,11 +321,7 @@ Evidence retrieval and claim verification are sometimes tackled together.
   [[Paper]](https://arxiv.org/abs/2106.05707)
   [[Dataset]](https://faviq.github.io/)
   **ACL 2022**
-* FEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information (Aly et al., 2021)  
-  [[Paper]](https://arxiv.org/abs/2106.05707)
-  [[Dataset]](https://fever.ai/resources.html)
-  [[Code]](https://github.com/Raldir/FEVEROUS)
-  **NeurIPS 2021**
+
 * InfoSurgeon: Cross-Media Fine-grained Information Consistency Checking for Fake News Detection (Fung et al., 2021)
   [[Paper]](https://aclanthology.org/2021.acl-long.133.pdf)
   [[Dataset]](https://github.com/yrf1/InfoSurgeon)
@@ -380,7 +377,19 @@ Evidence retrieval and claim verification are sometimes tackled together.
 * Computational fact checking from knowledge networks (Ciampaglia et al., 2015)
   [[Paper]](https://arxiv.org/pdf/1501.03471.pdf)
 
+#### Numerical claims
+* FEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information (Aly et al., 2021)  
+  [[Paper]](https://arxiv.org/abs/2106.05707)
+  [[Dataset]](https://fever.ai/resources.html)
+  [[Code]](https://github.com/Raldir/FEVEROUS)
 
+* Fact Checking with Insufficient Evidence
+  [[Paper]](https://aclanthology.org/2022.tacl-1.43.pdf)
+ 
+*  An Extensible Framework for Verification of Numerical Claims
+  [[Paper]](https://aclanthology.org/E17-3010/)
+
+  
 ## Shared Tasks
 * The Fact Extraction and VERification (FEVER) Shared Task [[5th FEVER Workshop](https://fever.ai/)]
 * Statement Verification and Evidence Finding with Tables (SEM-TAB-FACT) [[Wang et al., 2021](https://competitions.codalab.org/competitions/27748)] 
@@ -393,7 +402,8 @@ Evidence retrieval and claim verification are sometimes tackled together.
 * SemEval-2017 Task 8: RumourEval: Determining rumour veracity and support for rumours [[Derczynski et al., 2017](https://www.aclweb.org/anthology/S17-2006/)]
 * The Fake News Challenge (FNC-1) [[Pomerleau and Rao, 2017](http://www.fakenewschallenge.org/)]
 
-
+## Generative modeling
+* GERE: Generative Evidence Retrieval for Fact Verification [[Paper]](https://arxiv.org/abs/2204.05511)
 
 ## Models
 

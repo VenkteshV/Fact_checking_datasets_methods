@@ -317,10 +317,7 @@ Evidence retrieval and claim verification are sometimes tackled together.
   [[Paper]](https://arxiv.org/pdf/2110.08222.pdf)
   [[Dataset]](https://github.com/salesforce/DialFact)
   **ACL 2022**
-* FAVIQ: FAct Verification from Information-seeking Questions (Park et al., 2022)
-  [[Paper]](https://arxiv.org/abs/2106.05707)
-  [[Dataset]](https://faviq.github.io/)
-  **ACL 2022**
+
 
 * InfoSurgeon: Cross-Media Fine-grained Information Consistency Checking for Fake News Detection (Fung et al., 2021)
   [[Paper]](https://aclanthology.org/2021.acl-long.133.pdf)
@@ -404,6 +401,7 @@ Evidence retrieval and claim verification are sometimes tackled together.
 
 ## Generative modeling
 * GERE: Generative Evidence Retrieval for Fact Verification [[Paper]](https://arxiv.org/abs/2204.05511)
+* Generating Literal and Implied Subquestions to Fact-check Complex Claims [[Paper]](https://arxiv.org/abs/2205.06938)
 
 ## Models
 
@@ -823,6 +821,8 @@ Evidence retrieval and claim verification are sometimes tackled together.
 ## QA bases systems
 * AnswerFact: Fact Checking in Product Question Answering [[Paper]](https://aclanthology.org/2020.emnlp-main.188/)
 * Generating Literal and Implied Subquestions to Fact-check Complex Claims [[Paper]](https://arxiv.org/abs/2205.06938)
+* FAVIQ: FAct Verification from Information-seeking Questions (Park et al., 2022)
+  [[Paper]](https://arxiv.org/abs/2106.05707) [[Dataset]](https://faviq.github.io/)
  
 
 

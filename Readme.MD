@@ -1,6 +1,9 @@
 # Automated Fact-Checking datasets, benchmarks and related resources 
 
 
+| Dataset   | Website | Public? | Type | Queries  | Corpus |
+| -------- | -----| ---------| ------- | --------- | ----------- | ---------| ---------| :----------: | :------:|
+| FEVER    | [Homepage](https://fever.ai/resources.html)| ✅ | ``train``<br>``dev``<br>``test``|  6,980   |  8.84M |
 
 ## Overview
 
